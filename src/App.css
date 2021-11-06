@@ -1,38 +1,63 @@
+*{
+  margin: 0;
+}
 .App {
+     text-align: center;
+     color: antiquewhite;
+     display: block;
+     background-image: url("https://c.tenor.com/Fk8I9i-NSrQAAAAC/storm-lightning.gif");
+     background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.city {
+  background: rgba(255,255,255,.2);
   text-align: center;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather {
+  background: rgba(255,255,255,.2);
+  height: 350px;
+  width: 55%;
+  border-radius: 20px;
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details {
+  background: rgba(255,255,255,.2);
+  height: 350px;
+  width: 55%;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top:3%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.content-inner {
+  display: inline-block;
   color: white;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.right-side {
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-inner {
+  padding: 30px;
+}
+
+.primary {
+  font-size: 27px;
+}
+
+.secondary {
+  font-size: 17px;
+}
+
+.temp {
+  font-size: 90px;
 }
